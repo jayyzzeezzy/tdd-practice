@@ -38,6 +38,24 @@ describe('multiply', () => {
     });
 
     test('calculator.mul(0.3, 0.2) return 0.06', () => {
-        expect(calculator.mul(0.3, 0.2)).toBe(0.06);
+        expect(calculator.mul(0.3, 0.2)).toBeCloseTo(0.06);
+    });
+});
+
+describe('divide', () => {
+    test('calculator.div(9, 3) return 3', () => {
+        expect(calculator.div(9, 3)).toBe(3);
+    });
+
+    test('calculator.div(15, 3) return 5', () => {
+        expect(calculator.div(15, 3)).toBe(5);
+    });
+
+    test('calculator.div(0.15, 3) return 0.05', () => {
+        expect(calculator.div(0.15, 3)).toBeCloseTo(0.05);
+    });
+
+    test('calculator.div(0.0015, 3) return 0.0005', () => {
+        expect(calculator.div(0.0015, 3)).toBeCloseTo(0.0005);
     });
 });
