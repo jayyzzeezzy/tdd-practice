@@ -27,3 +27,17 @@ describe('subtract', () => {
         expect(calculator.sub(0.5, 0.1)).toBeCloseTo(0.4);
     });
 });
+
+describe('multiply', () => {
+    test('calculator.mul(2, 2) return 4', () => {
+        expect(calculator.mul(2, 2)).toBe(4);
+    });
+
+    test('calculator.mul(3, 2) return 6', () => {
+        expect(calculator.mul(3, 2)).toBe(6);
+    });
+
+    test('calculator.mul(0.3, 0.2) return 0.06', () => {
+        expect(calculator.mul(0.3, 0.2)).toBe(0.06);
+    });
+});
