@@ -1,4 +1,4 @@
-import { analyzeArray } from "./analyzeArray";
+import { analyzeArray } from "../script/analyzeArray";
 
 test('analyze an array', () => {
     expect(analyzeArray([1,8,3,4,2,6])).toStrictEqual({

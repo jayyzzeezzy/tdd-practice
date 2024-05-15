@@ -1,4 +1,4 @@
-import { reverseString } from "./reverseString";
+import { reverseString } from "../script/reverseString";
 
 test('reverse line', () => {
     expect(reverseString('line')).toBe('enil');

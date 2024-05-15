@@ -1,4 +1,4 @@
-import { caesarCipher } from "./caesarCipher";
+import { caesarCipher } from "../script/caesarCipher";
 
 describe('caesar cipher', () => {
     test('cipher a string by 1 key', () => {

@@ -1,4 +1,4 @@
-import { calculator } from "./calculator";
+import { calculator } from "../script/calculator";
 
 describe('add', () => {
     test('calculator.add(1, 1) return 2', () => {
